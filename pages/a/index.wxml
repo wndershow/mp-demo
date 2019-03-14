@@ -1,0 +1,5 @@
+<view>
+  page a
+  <view>{{firstName}}</view>
+  <view><button bindtap="handleTest">test</button></view>
+</view>

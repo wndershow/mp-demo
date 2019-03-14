@@ -1,0 +1,6 @@
+.DS_Store
+project.config.json
+pages/test/
+/node_modules/
+/miniprogram_npm/
+package-lock.json

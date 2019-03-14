@@ -1,0 +1,4 @@
+<template name="footer">
+  <tip id="tip"></tip>
+  <confirm id="confirm"></confirm>
+</template>

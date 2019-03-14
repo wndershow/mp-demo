@@ -1,0 +1,36 @@
+{
+  "pages": ["pages/index/index", "pages/user/index", "pages/a/index", "pages/b/index", "pages/c/index", "pages/404/index", "pages/e/index"],
+  "subpackages": [
+    {
+      "root": "subPages",
+      "pages": ["a/index"]
+    }
+  ],
+  "usingComponents": {
+    "avatar": "./pures/avatar/index"
+  },
+  "tabBar": {
+    "custom": true,
+    "backgroundColor": "#ffffff",
+    "color": "#ffffff",
+    "borderStyle": "white",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTextStyle": "black"
+  },
+  "networkTimeout": {
+    "request": 20000
+  }
+}

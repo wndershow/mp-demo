@@ -1,0 +1,52 @@
+.com {
+  margin: 0 auto;
+  width: 200rpx;
+  height: 240rpx;
+  position: relative;
+}
+
+.p {
+  background-color: white;
+  box-shadow: 0 0 14rpx rgba(0,0,0,.2);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10rpx;
+}
+
+.p.p1 {
+  z-index: 3;
+}
+.p.p2 {
+  z-index: 2;
+  transform: rotate(3deg);
+}
+.p.p3 {
+  z-index: 1;
+  transform: rotate(6deg);
+}
+
+.s1 {
+  position: absolute;
+  z-index: 4;
+  height: 24rpx;
+  width: 50%;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  border-radius: 16rpx;
+  background: linear-gradient(to right, #FFE576, #FFD008);
+  box-shadow: 0 4rpx 6rpx rgba(0,0,0,.1);
+}
+
+.s2 {
+  position: absolute;
+  z-index: 5;
+  left: 50%;
+  top: 30%;
+  transform: translateX(-50%);
+  color: #24D073;
+  font-size: 1.8em;
+}

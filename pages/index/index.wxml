@@ -1,0 +1,8 @@
+<wxs src="./index.wxs" module="tools" />
+<view class="page ta-c">
+  page index
+  <view>
+    {{firstName}}
+  </view>
+  <navigator url="/pages/a/index">go a</navigator>
+</view>

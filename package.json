@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "cos-wx-sdk-v5": "^0.6.0",
+    "dayjs": "^1.7.7",
+    "fundebug-wxjs": "^1.0.0",
+    "miniprogram-computed": "^0.0.6",
+    "miniprogram-hooks": "0.0.1"
+  }
+}
