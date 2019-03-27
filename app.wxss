@@ -1,10 +1,3 @@
-@import 'static/iconfont.wxss';
-@import 'static/weui.wxss';
-@import 'static/reset.wxss';
-@import 'static/helper.wxss';
-@import 'static/components.wxss';
-@import 'static/ripples.wxss';
-
 page {
   height: 100%;
 }

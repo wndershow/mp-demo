@@ -1,7 +1,0 @@
-<view class="page ta-c bg-organize">
-  page a
-  <navigator url="/pages/b/index">
-    to b
-  </navigator>
-  <com></com>
-</view>

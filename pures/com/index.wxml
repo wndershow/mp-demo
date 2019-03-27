@@ -1,4 +1,0 @@
-<view class="com">
-  com {{fullName}}
-  <button bindtap="xxx">xxx</button>
-</view>

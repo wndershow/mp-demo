@@ -1,7 +1,0 @@
-<view class="com">
-  <view class="s1"></view>
-  <view class="p p1"></view>
-  <view class="p p2"></view>
-  <view class="p p3"></view>
-  <view class="s2">{{value}}</view>
-</view>

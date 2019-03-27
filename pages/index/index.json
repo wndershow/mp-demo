@@ -1,6 +1,3 @@
 {
-  "navigationBarTitleText": "index",
-  "usingComponents": {
-    "com": "../../pures/com/index"
-  }
+  "navigationBarTitleText": "index"
 }

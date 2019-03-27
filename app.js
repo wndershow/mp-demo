@@ -1,23 +1,13 @@
-'use strict';
-
-import regeneratorRuntime from './vendor/runtime';
-import config from './config/index';
-
 App({
-  onLaunch: async function(options) {
+  onLaunch(options) {
     console.info('App onLaunch');
   },
-  onShow: async function(options) {
+  onShow(options) {
     console.info('App onShow');
   },
-  onHide: function() {
+  onHide() {
     console.info('App onHide');
   },
-  onError: function(msg) {},
-  globalData: {},
-  onPageNotFound() {
-    wx.redirectTo({
-      url: '/pages/404/index'
-    });
-  }
+  onError(msg) {},
+  globalData: {}
 });

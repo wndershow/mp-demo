@@ -1,4 +1,0 @@
-<view class="avatar" style="width: {{width}};{{sty}}">
-  <view class="avatar-inner" style="background-image: url({{src}});">
-  </view>
-</view>

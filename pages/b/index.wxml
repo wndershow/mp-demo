@@ -1,5 +1,0 @@
-<view class="page ta-c">
-  page b
-
-  <button bindtap="goUser">go user</button>
-</view>
