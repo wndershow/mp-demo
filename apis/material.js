@@ -2,9 +2,8 @@ import regeneratorRuntime from '../vendor/runtime';
 import http from '../utils/http';
 
 export const createMaterial = async ({ type, key, size, meta = {} }) => {
-  let res = await http.post(`https://beta-ark.modteach.cn/graphql`,
-    {
-      query: `
+  let res = await http.post(`https://beta-ark.modteach.cn/graphql`, {
+    query: `
         mutation($meta: JSON) {
           createMaterial(material: {
             type: "${type}",
@@ -20,10 +19,9 @@ export const createMaterial = async ({ type, key, size, meta = {} }) => {
           }
         }
       `,
-      variables: {
-        meta
-      }
+    variables: {
+      meta
     }
-  );
-  return res.data.data.createMaterial
-}
+  });
+  return res.data.data.createMaterial;
+};
