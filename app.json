@@ -1,8 +1,14 @@
 {
-  "pages": ["pages/index/index"],
+  "pages": ["pages/index/index", "pages/a/index", "pages/b/index", "pages/c/index", "pages/d/index"],
   "window": {
     "navigationBarBackgroundColor": "#FFFFFF",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{ "text": "page index", "pagePath": "pages/index/index" }, { "text": "page c", "pagePath": "pages/c/index" }, { "text": "page d", "pagePath": "pages/d/index" }]
+  },
+  "usingComponents": {
+    "avatar": "./components/avatar/index"
   },
   "networkTimeout": {
     "request": 20000

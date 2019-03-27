@@ -1,3 +1,11 @@
 page {
   height: 100%;
 }
+
+.pd {
+  padding: 32rpx;
+}
+
+navigator {
+  color: blue;
+}

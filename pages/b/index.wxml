@@ -1,0 +1,4 @@
+<view class="page ta-c">
+  <view class="pd">page b</view>
+  <navigator open-type="switchTab" url="/pages/c/index">go tabbar page c</navigator>
+</view>

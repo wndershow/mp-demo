@@ -1,3 +1,10 @@
 <view class="page ta-c">
-  page index
+  <view class="pd">page index</view>
+  <view class="pd"><avatar></avatar></view>
+  <view class="pd">
+    <navigator url="/pages/a/index">go page a</navigator>
+  </view>
+  <view class="pd">
+    <navigator url="/pages/a/index" open-type="reLaunch">重启下程序到page a</navigator>
+  </view>
 </view>

@@ -1,0 +1,10 @@
+<view class="page ta-c">
+  <view class="pd">page a</view>
+  <view class="pd">
+    <avatar wx:if="{{isShowAvatar}}"></avatar>
+    <view><button bindtap="handleToggleAvatar">Toggle Avatar</button></view>
+  </view>
+  <view class="pd">
+    <navigator url="/pages/b/index">go page b</navigator>
+  </view>
+</view>
