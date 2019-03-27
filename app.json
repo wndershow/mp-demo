@@ -10,7 +10,6 @@
     "avatar": "./pures/avatar/index"
   },
   "tabBar": {
-    "custom": true,
     "backgroundColor": "#ffffff",
     "color": "#ffffff",
     "borderStyle": "white",
