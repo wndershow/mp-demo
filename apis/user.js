@@ -1,4 +1,5 @@
 'use strict';
+import regeneratorRuntime from '../../vendor/runtime';
 
 /**
  * [getRegistInfo description]
