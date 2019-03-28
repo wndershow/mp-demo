@@ -7,4 +7,6 @@
   <view class="pd">
     <navigator url="/pages/a/index" open-type="reLaunch">重启下程序到page a</navigator>
   </view>
+
+  <cover-view style="position:fixed;bottom: 0;left: 0;">adfasdfa</cover-view>
 </view>
